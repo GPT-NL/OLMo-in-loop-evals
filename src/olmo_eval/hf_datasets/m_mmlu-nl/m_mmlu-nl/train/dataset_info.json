@@ -1,0 +1,36 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "option_a": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "option_b": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "option_c": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "option_d": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

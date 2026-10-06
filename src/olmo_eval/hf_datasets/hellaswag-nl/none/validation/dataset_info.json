@@ -1,0 +1,77 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "nl",
+  "dataset_name": "m_hellaswag",
+  "dataset_size": 11418472,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/alexandrainst/m_hellaswag@9d31dc982bd6285e081e3e3136332a38b9c1d7b7/data/nl/val.jsonl": {
+      "num_bytes": 12358678,
+      "checksum": null
+    }
+  },
+  "download_size": 12358678,
+  "features": {
+    "ctx_a": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "ctx_b": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "ctx": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "endings": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "ind": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "activity_label": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "split": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 23777150,
+  "splits": {
+    "val": {
+      "name": "val",
+      "num_bytes": 11418472,
+      "num_examples": 9265,
+      "dataset_name": "m_hellaswag"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
